@@ -1,0 +1,11 @@
+.header{
+    align-items: center;
+    text-align: center;
+}
+.header-text{
+    font-size: 30pt;
+    font-family: Avenir-Book;
+    font-weight: bold;
+    align-items: center;
+    left: 500px;
+}

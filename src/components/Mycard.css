@@ -1,0 +1,45 @@
+.mycard{
+    min-width: 300px;
+    max-width: 300px;
+    height: 400px;
+    background-color: black;
+    margin: 10px;
+    color: white;
+}
+.mycard img {
+    width: 300px; /* Ensures the image doesn't exceed the width of its container */
+    max-height: 100%; /* Ensures the image doesn't exceed the height of its container */
+    display: block; /* Removes any extra spacing below the image */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+  }
+
+  .color-options {
+    margin-top: 10px;
+  }
+  
+  .color-option {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .color-option:hover {
+    background-color: #f0f0f0;
+  }
+
+  .color-swatch {
+    display: inline-block;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+  }
+  
+  .color-swatch:hover {
+    border-color: #666;
+  }
